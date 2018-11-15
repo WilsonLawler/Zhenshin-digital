@@ -1,0 +1,76 @@
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei",
+    "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+
+.navbar {
+  border-bottom: 4px solid #008ed6;
+  opacity: 0.8;
+}
+
+header {
+  width: 100vw;
+  min-height: 700px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.header-inner {
+  /* position: absolute; absolute會讓container跑掉 */
+  padding-top: 160px;
+}
+
+.my-fa-check-blue {
+  background-color: #fff;
+  color: #008ed6;
+  padding: 4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.my-fa-check-333 {
+  background-color: #333;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.card {
+  border: 2px solid #008ed6;
+}
+
+.card-rounded {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.bg-333 {
+  background-color: #333;
+}
+
+.img-oval {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.border-none {
+  border: 0 !important;
+}
